@@ -1,8 +1,0 @@
-
-
-const COMIC_PUBLIC_KEY='6232084dd98d72dd1af8a5e9aebd0bde';
-
-const COMIC_PRIVATE_KEY='85f6d0186d1f4c82048aaefaab0ea76b21a637e5';
-
-
-export  {COMIC_PRIVATE_KEY,COMIC_PUBLIC_KEY};
