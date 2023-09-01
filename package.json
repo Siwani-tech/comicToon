@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "md5": "^2.3.0",
+    "style-loader": "^3.3.3"
+  }
+}

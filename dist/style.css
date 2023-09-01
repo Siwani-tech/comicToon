@@ -1,0 +1,61 @@
+body {
+  background-color: #e6dcdc;
+}
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Comic Neue", cursive;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  margin-left: 50%;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 0px 0px #333333, -2px 0px 0px #333333, 0px 2px 0px #333333,
+    0px -2px 0px #333333, -2px -2px 0px #333333, 2px 2px 0px #333333,
+    2px -2px 0px #333333, -2px 2px 0px #333333;
+}
+
+/* Style for each comic book element */
+.comic {
+  /* border: 1px solid #ccc; */
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+/* Style for the comic book title */
+.comic h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-size: larger;
+}
+
+/* Style for the comic book description */
+.comic p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Style for the comic book thumbnail image */
+.comic img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the "Read Comic" link */
+.comic a {
+  display: inline-block;
+  background-color: Crimson;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.comic a:hover {
+  background-color: rgb(248, 118, 144);
+}
